@@ -26,4 +26,41 @@ To set up the project locally:
 
    ```bash
    git clone https://github.com/abhinavrbharadwaj7/EduQuest.git
+2. **Navigate to the Project Directory**
+   ```bash
+   cd EduQuest
+3. **Install Dependencies**
+   ```bash
+   npm install
+4. **Set Up Environment Variables**
+Create a .env file in the root directory and add the following:
+   ```env
+   PORT=3000
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+5. ** Start the Development Server**
+   ```bash
+      npm start
+The application should now be running at: http://localhost:3000
+
+ **Contributing**
+We welcome contributions to enhance EduQuest. To contribute:
+
+**Fork the repository.**
+
+Create a new branch for your feature or bug fix.
+
+Commit your changes with clear and concise messages.
+
+Push your changes to your fork.
+
+Submit a pull request with a detailed description of your changes.
+
+Make sure your code follows the project's conventions and includes relevant tests if necessary.
+
+**License**
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+**Contact**
+For questions, suggestions, or issues, please open an issue on the GitHub repository.
 
